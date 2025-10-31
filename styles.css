@@ -5,7 +5,7 @@
 .main{
   background: linear-gradient(To Top, rgba(0, 0, 0, 0.5)50%), url(jesseyicon.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   height: 100vh;
 }
 .navbar{
@@ -277,5 +277,4 @@ letter-spacing: 2px;
   background-position: center;
   background-size: auto;
   height: 100vh;
-
 }
