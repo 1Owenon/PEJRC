@@ -237,7 +237,7 @@ letter-spacing: 2px;
 .main5{
   background: linear-gradient(To Top, rgba(0, 0, 0, 0.5)50%), url(jesseyicon12.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   height: 100vh;
 }
 .main5 h1{
@@ -275,6 +275,7 @@ letter-spacing: 2px;
 .main6{
   background: linear-gradient(To Top, rgba(0, 0, 0, 0.5)50%), url(jesseyicon8.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   height: 100vh;
+
 }
