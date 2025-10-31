@@ -1,0 +1,280 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  background: linear-gradient(To Top, rgba(0, 0, 0, 0.5)50%), url(jesseyicon.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.navbar{
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+.icon{
+  width: 200px;
+  float: left;
+  height: 70px
+}
+.logo{
+  color: rgb(220, 132, 212);
+  font-size: 35px;
+  font-family: 'Tahoma', sans-serif;
+  padding-left: 20px;
+  font-weight: bold;
+  float: left;
+  padding-top: 10px;
+}
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li{
+  list-style: none;
+  margin-left: 70px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: 'Tahoma', sans-serif;
+  font-weight: bold;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  transition: 0.4s ease-in-out;
+  font-family: 'Tahoma', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+ul li a:hover{
+  color: rgb(220, 132, 212);
+}
+
+.search{ 
+  width: 330px;
+  float: right;
+  height: 70px;
+  margin-left: 300px;
+}
+.srch{
+  font-family: 'Times New Roman', serif;
+  width: 200px;
+  height: 40 px;
+  background: white;
+  border: 1px solid lavender;
+  margin-top: 13px;
+  color: white;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border: 5px;
+  border-top-left-radius: 5px;
+}
+.btn{
+  width: 240px;
+  height: 40px;
+  background: rgb(220, 132, 212);
+  border: 1px solid lavender;
+  margin-top: 30px;
+  color: white;
+  font-size: 18px;
+  float: left;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  align-items: center;
+}
+.btn:focus{
+  outline: none;
+}
+.btn:hover{
+  background: lavender;
+  color: black;
+} 
+.srch:focus{
+  outline: none;
+}
+.content{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: rgb(171, 166, 166);
+  padding-top: 150px;
+  position: relative;
+}
+.content .par{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Tahoma;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+.content .h1{
+font-family: Tahoma;
+font-size: 50px;
+padding-left: 50px;
+margin-top: 90px;
+letter-spacing: 2px;
+}
+.content .cn{
+  width:160px;
+  height: 40px;
+  background: lavender;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: 0.4s ease-in-out;
+  align-items: center;
+}
+.content .cn a{
+  text-decoration: none;
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+.cn:hover{
+  background: skyblue;
+}
+.content span{
+  color: white;
+  font-size: 60px
+}
+.form{
+  width: 250px;
+  height: 380px;
+  background: linear-gradient( rgba(207, 125, 222, 0.6));
+  top: 580px;
+  left: 870px;
+  padding: 25px;
+  border-radius: 10px;
+  position: absolute;
+}
+.form h2{
+  width: 220px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Tahoma', sans-serif;
+  color: black;
+  font-size: 22px;
+  background-color: lavender;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+}
+.form input{
+  width: 240px;
+  height: 35px;
+  border-bottom: 1px solid lavender;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+  margin-top: 30px;
+  font-size: 15px;
+  font-family: 'Tahoma', sans-serif;
+  letter-spacing: 1px;
+  background: transparent;
+}
+.form input:focus{
+  outline: none;
+}
+::placeholder{
+  color: white;
+  font-family: 'Times New Roman';
+}
+.button:hover{
+  background: white;
+  color: purple;
+}
+
+.form .link{
+  padding-top: 10px;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 16px;
+}
+.form .link a{
+  text-decoration: none;
+  color: lavender;
+  font-weight: bold;
+}
+.liw{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.main2{
+  background: linear-gradient(To Top, rgba(0, 0, 0, 0.5)50%), url(jesseyicon2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.main3{
+  background: linear-gradient(To Top, rgba(0, 0, 0, 0.5)50%), url(jesseyicon9.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.main4{
+  background: linear-gradient(To Top, rgba(0, 0, 0, 0.5)50%), url(jesseyicon5.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.main5{
+  background: linear-gradient(To Top, rgba(0, 0, 0, 0.5)50%), url(jesseyicon12.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.main5 h1{
+  font-family: 'Tahoma', sans-serif;
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  padding-left: 20px;
+  padding-top: 150px;
+}
+.main5 .par{
+  font-family: 'Tahoma', sans-serif;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  padding-left: 20px;
+  padding-top: 150px;
+}
+.yes, .no{
+  width: 300px;
+  height: 80px;
+  background: lavender;
+  border: none;
+  font-size: 24px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 40px;
+  transition: 0.4s ease-in-out;
+  align-items: center;
+}
+.yes:hover{ 
+  background: skyblue;
+}
+.no:hover{
+  background: green;
+}
+.main6{
+  background: linear-gradient(To Top, rgba(0, 0, 0, 0.5)50%), url(jesseyicon8.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
