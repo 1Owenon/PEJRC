@@ -3,10 +3,10 @@
   padding: 0;
 }
 .main{
-  background: linear-gradient(To Top, rgba(0, 0, 0, 0.5)50%), url(jesseyicon.jpg);
+  background: linear-gradient(To Bottom, rgba(0, 0, 0, 0.5)50%), url(jesseyicon.jpg);
   background-position: center;
   background-size: auto;
-  height: 100vh;
+  height: 150vh;
 }
 .navbar{
   width: 1200px;
@@ -220,25 +220,25 @@ letter-spacing: 2px;
   background: linear-gradient(To Top, rgba(0, 0, 0, 0.5)50%), url(jesseyicon2.jpg);
   background-position: center;
   background-size: auto;
-  height: 100vh;
+  height: 150vh;
 }
 .main3{
   background: linear-gradient(To Top, rgba(0, 0, 0, 0.5)50%), url(jesseyicon9.jpg);
   background-position: center;
   background-size: auto;
-  height: 100vh;
+  height: 150vh;
 }
 .main4{
   background: linear-gradient(To Top, rgba(0, 0, 0, 0.5)50%), url(jesseyicon5.jpg);
   background-position: center;
   background-size: auto;
-  height: 100vh;
+  height: 150vh;
 }
 .main5{
   background: linear-gradient(To Top, rgba(0, 0, 0, 0.5)50%), url(jesseyicon12.jpg);
   background-position: center;
   background-size: auto;
-  height: 100vh;
+  height: 150vh;
 }
 .main5 h1{
   font-family: 'Tahoma', sans-serif;
@@ -276,6 +276,7 @@ letter-spacing: 2px;
   background: linear-gradient(To Top, rgba(0, 0, 0, 0.5)50%), url(jesseyicon8.jpg);
   background-position: center;
   background-size: auto;
-  height: 100vh;
+  height: 150vh;
 }
+
 
