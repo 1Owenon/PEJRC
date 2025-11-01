@@ -22,5 +22,22 @@
             </form>
             </div>
         </div>
+           <script>
+            // Add event listener for 'Yes' button
+            // ID has been updated to match the HTML button's ID
+            document.getElementById("Yes Owenogee").addEventListener("click", function() {
+                alert("You're the best thing thats ever happened to me, I love you.");
+            });
+
+            // Add event listener for 'No' button
+            // ID has been updated to match the HTML button's ID
+            document.getElementById("Owen, i am sorry but No").addEventListener("click", function(event) {
+                // Prevent the form from submitting immediately so the button can move
+                event.preventDefault(); 
+                this.style.position = 'absolute';
+                this.style.left = (Math.random() * window.innerWidth) + "px";
+                this.style.top = (Math.random() * window.innerHeight) + "px";
+            });
+        </script>
     </body>
 </html>
